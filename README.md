@@ -20,11 +20,11 @@ Kahoot Toolkit is the easiest way to interact with Kahoot games.
 
 There are two ways to install and use Kahoot Toolkit, either as a dependency in your project, or the CLI. Here are the commands to install them in both ways:
 
-<u>Install as a Dependency</u>
+### <u>**Install as a Dependency**</u>
     
 `npm i kahoot-toolkit --save`
 
-<u>Install CLI</u>
+### <u>**Install CLI**</u>
 
 `npm i -g kahoot-toolkit`
 
@@ -54,7 +54,7 @@ client.autoplay("Quiz Name or ID Here");
 
 // To log any progress the bot makes, you can set a second parameter to true.
 
-client.autoplay("1f76d2dd-4353-4d9a-ab57-71ea9607d050", true);
+client.autoplay("Quiz Name or ID Here", true);
 ```
 
 ## CLI Usage
@@ -65,11 +65,11 @@ To open the CLI, simply type `kahoot-toolkit`, `kahoot-cli` or `kahoot` into you
 
 Simply choose which action you would like to perform to continue. Then, just follow the instructions and prompts!
 
-<u>Flooding a Game</u>
+### <u>**Flooding a Game**</u>
 
 ![Flood Example](https://github.com/WillTDA/Kahoot-Toolkit/blob/master/images/floodExample.jpg?raw=true)
 
-<u>Winning a Game</u>
+### <u>**Winning a Game**</u>
 
 ![Autoplay Setup](https://github.com/WillTDA/Kahoot-Toolkit/blob/master/images/autoplaySetup.jpg?raw=true)
 
