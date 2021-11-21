@@ -1,0 +1,25 @@
+{
+  "name": "kahoot-toolkit",
+  "version": "1.0.0",
+  "description": "The easiest way to interact with Kahoot games. Flood games with bots, or even win one autonomously!",
+  "main": "src/index.js",
+  "bin": {
+    "kahoot": "src/cli.js",
+    "kahoot-cli": "src/cli.js",
+    "kahoot-toolkit": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "WillTDA",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@inquirer/input": "^0.0.17-alpha.0",
+    "@inquirer/select": "^0.0.17-alpha.0",
+    "got": "^11.8.3",
+    "kahoot.js-updated-fixed": "^1.0.0",
+    "random-useragent": "^0.5.0",
+    "ws": "^8.2.3"
+  }
+}
