@@ -1,3 +1,4 @@
+require("./util/patchKahootDependency");
 const api = require("kahoot.js-updated-fixed");
 const got = require("got");
 const search = require("./util/search");
@@ -106,7 +107,7 @@ class Kahoot {
         client.on("QuestionEnd", question => {
             if (debug) console.log(`[Kahoot Client]: Question Ended! ${question.isCorrect ? `(Correct, +${question.points} Points)` : `(Incorrect)`} Currently Rank ${question.rank}`);
         })
-        await client.join(this.pin, this.name).catch(err => console.log("Kahoot Toolkit Error: Failed to Join Game!\nNeed Help? Join our Discord Server at 'https://discord.gg/P2g24jp'"));
+        await client.join(this.pin, this.name).catch(err => console.log("Kahoot Toolkit Error: Failed to Join Game!\nNeed Help? Join our Discord Server at 'https://discord.gg/P2g24jp'\nError Message: " + err));
     }
 }
 
