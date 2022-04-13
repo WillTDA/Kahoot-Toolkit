@@ -1,6 +1,6 @@
 {
   "name": "kahoot-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The easiest way to interact with Kahoot games. Flood games with bots, or even win one autonomously!",
   "main": "src/index.js",
   "bin": {
